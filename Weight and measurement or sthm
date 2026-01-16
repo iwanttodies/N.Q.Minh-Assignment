@@ -1,0 +1,8 @@
+#
+Talent=float(input("Enter talent "))
+Pound=float(input("Enter pound "))
+Lots=float(input("Enter pound "))
+Total=(Talent*8512.6+Pound*425.6+Lots*13.3)
+Kilogram=int(Total//1000)
+Gram=((Total/1000-Kilogram)*1000)
+print(f"{Kilogram} kilogram and {Gram} gram")

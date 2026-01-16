@@ -1,0 +1,12 @@
+#Write a program that draws two random combinations of numbers for a combination lock
+import random
+comblock1= random.randint(1, 9)
+comblock2= random.randint(1, 9)
+comblock3= random.randint(1, 9)
+lock1= random.randint(1, 6)
+lock2= random.randint(1, 6)
+lock3= random.randint(1, 6)
+lock4= random.randint(1, 6)
+
+print(f"Your combination is {comblock1}{comblock2}{comblock3}")
+print(f"your second combination is {lock1}{lock2}{lock3}{lock4}")

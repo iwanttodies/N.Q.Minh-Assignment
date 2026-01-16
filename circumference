@@ -1,0 +1,6 @@
+#Write a program that asks the user for the radius of a circle and the prints out the circumference of the circle.
+
+
+width=float(input("What is the width of your ball"))
+circumference=(width)*3.14
+print(circumference)

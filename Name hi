@@ -1,0 +1,3 @@
+print("Can i have your name please?") 
+name=input()
+print(f"Greeting {name}")
