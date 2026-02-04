@@ -1,0 +1,7 @@
+a=input("enter sthm to be abducted:  ")
+length=len(a)
+if length%2==0:
+   c=a[len(a)//2-1:len(a)//2+1]
+else:
+    c=a[len(a)//2+1]
+print (c)

@@ -1,0 +1,13 @@
+c=0
+d=None
+while True:
+    a=(input("enter any number to start ,leave blank to stop :"))
+    if a=="":
+        break
+    num=float(a)
+    if c < num or c is None:
+        c=num
+    if d is None or d > num:
+        d=num
+print(f"min value is {d}")
+print(f"max value is {c}")

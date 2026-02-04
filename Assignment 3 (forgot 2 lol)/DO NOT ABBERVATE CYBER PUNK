@@ -1,0 +1,9 @@
+a=input("enter your setence for abbervation: ")
+
+def acronym(a):
+    abbver=""
+    for word in a.split( ):
+        abbver += word[0].upper()
+    return abbver
+print(acronym(a))
+#define function is fun , i keep messing the a with word lol .
