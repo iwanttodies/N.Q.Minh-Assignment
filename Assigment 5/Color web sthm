@@ -1,0 +1,8 @@
+import re
+colorinput=input("Enter color format: ")
+format=re.compile(r'#(?:[A-Fa-f]|\d){6}')
+if format.fullmatch(colorinput):
+    print("Ye it a color , idk what tho")
+else:
+    print("That is not a color broracho")
+        

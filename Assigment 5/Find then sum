@@ -1,0 +1,5 @@
+import re
+UI=input()
+number=re.findall(r'\d+',UI)
+total =sum(int(n) for n in number)
+print(total)

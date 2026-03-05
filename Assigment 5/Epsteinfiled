@@ -1,0 +1,5 @@
+import re
+i=input("You: ")
+pnumber=re.compile(r'(\+84\d{10})')
+redacted=re.sub(pnumber, "[REDACTED]", i)
+print(redacted)
