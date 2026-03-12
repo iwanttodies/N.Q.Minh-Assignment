@@ -1,0 +1,12 @@
+thelist=set()
+while True:
+    namein=input("Enter the guest name: ")
+    if namein=="":
+        break
+    if namein in thelist:
+       print("Already in the file")
+    else:
+        print("New one huh ?")
+        thelist.add(namein)
+        
+print(thelist)

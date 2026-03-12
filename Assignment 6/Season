@@ -1,0 +1,10 @@
+season=("spring","summer","fall","winter")
+
+
+monthin=int(input("Enter your month: "))
+if monthin<1 and monthin>12:
+        print("Bruh what month is this?")
+else:
+    index=(monthin)%12//3
+    print(f"the season is {season[index]}")
+        
